@@ -1,0 +1,21 @@
+Sistema de Gestão Financeira/
+│
+├── main.py                  # Ponto de entrada do sistema
+│
+├── gui/                     # Interface gráfica
+│   ├── login_screen.py      # Tela de login
+│   ├── register_screen.py   # Tela de cadastro
+│   └── main_window.py       # Janela principal do sistema
+│
+├── database/                # Acesso a dados
+│   └── db_manager.py        # Gerenciamento do banco de dados SQLite
+│
+├── auth/                    # Autenticação
+│   └── auth_manager.py      # Gerenciamento de login e cadastro
+│
+├── backend/                 # Lógica de negócios
+│   └── finance_manager.py   # Gerenciamento financeiro
+│
+└── utils/                   # Utilitários
+    ├── helpers.py           # Funções auxiliares
+    └── settings_manager.py  # Gerenciamento de configurações
